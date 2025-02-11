@@ -1,0 +1,44 @@
+Package python-markdown is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  python3-markdown
+
+sudo add-apt-repository ppa:openjdk-r/ppa
+PPA publishes dbgsym, you may need to include 'main/debug' component
+Repository: 'Types: deb
+URIs: https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu/
+Suites: noble
+Components: main
+'
+More info: https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa
+Adding repository.
+Press [ENTER] to continue or Ctrl-c to cancel.
+Hit:1 http://fi.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://fi.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://fi.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease                              
+Get:5 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu noble InRelease [24.3 kB]
+Get:6 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu noble/main amd64 Packages [8,396 B]
+Get:7 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu noble/main Translation-en [1,604 B]
+Fetched 34.3 kB in 1s (60.2 kB/s)           
+Reading package lists... Done
+~$ sudo apt-get update
+Hit:1 http://fi.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://fi.archive.ubuntu.com/ubuntu noble-updates InRelease                                              
+Hit:3 http://fi.archive.ubuntu.com/ubuntu noble-backports InRelease                                            
+Hit:4 https://ppa.launchpadcontent.net/openjdk-r/ppa/ubuntu noble InRelease                                    
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Reading package lists... Done
+
+
+E: Unable to locate package openjdk-7-jdk
+
+Package python3-distutils is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Unable to locate package lib32ncurses5
+E: Unable to locate package lib32ncurses5-dev
+E: Package 'python3-distutils' has no installation candidate
+E: Package 'python-markdown' has no installation candidate
